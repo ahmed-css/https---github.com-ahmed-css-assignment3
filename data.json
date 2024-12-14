@@ -1,0 +1,37 @@
+[
+    {
+        "year": "2018-2019",
+        "semester": "First Semester",
+        "nationality": "Bahraini",
+        "colleges": "College of IT",
+        "number_of_students": 1622
+    },
+    {
+        "year": "2018-2019",
+        "semester": "First Semester",
+        "nationality": "GCC National",
+        "colleges": "College of IT",
+        "number_of_students": 146
+    },
+    {
+        "year": "2018-2019",
+        "semester": "Second Semester",
+        "nationality": "Other",
+        "colleges": "College of IT",
+        "number_of_students": 323
+    },
+    {
+        "year": "2018-2019",
+        "semester": "Summer Semester",
+        "nationality": "Bahraini",
+        "colleges": "College of IT",
+        "number_of_students": 1228
+    },
+    {
+        "year": "2019-2020",
+        "semester": "Summer Semester",
+        "nationality": "GCC National",
+        "colleges": "College of IT",
+        "number_of_students": 72
+    }
+]

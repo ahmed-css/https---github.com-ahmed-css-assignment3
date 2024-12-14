@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UOB Enrollment Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.*/css/pico.min.css" rel="stylesheet">
+    <style>
+    
+        body {
+            background-color: #1a1a2e;
+            color: #eaeaea;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #16213e;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #16213e;
+            color: #fff;
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #0f3460;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #1a1a2e;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #0f3460;
+        }
+
+        tr:hover {
+            background-color: #e94560;
+            color: #fff;
+            transition: 0.3s ease-in-out;
+        }
+
+        td {
+            border-bottom: 1px solid #333;
+        }
+
+        .error {
+            color: #e94560;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #16213e;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #e94560;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>University of Bahrain Enrollment Data</h1>
+    </header>
+    <main>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Semester</th>
+                        <th>The Programs</th>
+                        <th>Nationality</th>
+                        <th>Colleges</th>
+                        <th>Number of Students</th>
+                    </tr>
+                </thead>
+                <tbody id="data-table">
+                    <!-- Data rows will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+        <p id="error-message" class="error" style="display: none;">Failed to load data. Please try again later.</p>
+    </main>
+    <footer>
+        <p>Designed by <strong>Ahmed AlTameem</strong> - Student ID: <strong>202006477</strong></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
